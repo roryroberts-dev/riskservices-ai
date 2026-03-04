@@ -1,0 +1,20 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization" }
+      ]
+    }
+  ],
+  "functions": {
+    "api/agent.js": { "maxDuration": 60 },
+    "api/enhance-prompt.js": { "maxDuration": 15 },
+    "api/contact.js": { "maxDuration": 10 },
+    "api/upload.js": { "maxDuration": 30 }
+  }
+}
