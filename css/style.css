@@ -562,3 +562,13 @@ textarea.form-control { min-height: 120px; resize: vertical; }
    AI-GENERATED STYLES BELOW THIS LINE
    The agent appends business-specific styles here.
    ============================================================ */
+:root {
+  --color-primary: #0F2027; /* Dark blue/almost black for professional tech feel */
+  --color-primary-light: #203A43;
+  --color-primary-dark: #071317;
+  --color-accent: #337EA9; /* A vibrant, data-driven blue */
+  --color-accent-dark: #266380;
+  --color-accent-light: #E0EFF6;
+  --color-highlight: #F5B041; /* A golden yellow for a modern, innovative highlight */
+  --color-highlight-light: #F8C471;
+}
