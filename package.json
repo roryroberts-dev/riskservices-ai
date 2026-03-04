@@ -1,0 +1,12 @@
+{
+  "name": "buildmysite",
+  "version": "1.0.0",
+  "description": "A self-building website powered by AI — built with BuildMySite by EON Risk Services",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "resend": "^4.0.0"
+  }
+}
